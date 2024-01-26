@@ -1,0 +1,35 @@
+# .gitignore
+
+# Python-specific
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter Notebook-specific
+.ipynb_checkpoints/
+
+# Machine learning models and data
+Machine_learning/ML_model_and_data/*.hdf5
+Machine_learning/ML_model_and_data/__pycache__/
+
+# Downloaded dependencies and packages
+venv/
+env/
+__pycache__/
+
+# Temporary files
+*.log
+*.pot
+*.pyc
+*.pyo
+*~
+__pycache__/
+*.db
+*.sqlite3
+
+# Downloaded or generated files
+Download_and_show_data/
+Download_tweets/
+GUI/
+Machine_learning/ML_model_and_data/model_epoch_*.hdf5
+experiments/
